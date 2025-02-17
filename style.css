@@ -11,6 +11,7 @@ html, body{
       object-fit: contain; /* The content is scaled to maintain its aspect ratio while fitting within the element's content box */
       height: 100%;
       width: 100%;
+      transform: scaleX(-1);
   }
   
   /*
@@ -18,6 +19,8 @@ html, body{
   */
   #take-photo-button{
     width: 300px;
+    bottom: 30px;
+    width: 100%;
     background-color: black;
     color: white;
     font-size: 20px;
@@ -34,6 +37,8 @@ html, body{
   */
   #front-camera-button{
     width: 300px;
+    bottom: 30px;
+    width: 100%;
     background-color: black;
     color: white;
     font-size: 20px;
@@ -49,6 +54,8 @@ html, body{
   Class "photo-taken", which is added to "cameraOutput" in file "app.js"
   */
   .photo-taken{
+    height: 100px
+    width: 100px
     top: 20px;
     right: 20px;
 
